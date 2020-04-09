@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import { ProductConsumer } from "../context";
 import PropTypes from 'prop-types';
 
+
 export default class Product extends Component {
     render() {
         const { id, title, img, price, inCart } = this.props.product;
@@ -18,7 +19,8 @@ export default class Product extends Component {
                             }>
                     
                     <Link to="/details">
-                        <img src={img} alt="product" className="card-img-top" />
+
+                    <img src={img} alt="product" className="card-img-top"  />
                     </Link>
                     <button className="cart-btn" disabled={inCart ? true : false }
                      onClick = {() => {
