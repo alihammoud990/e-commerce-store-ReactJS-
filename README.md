@@ -1,4 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I used Bootstrap and ReactJS 
+The idea of this project is to create an online shop selling football team shirts so that people can attend SportCompass events while wearing their favorite team shirts
+Published on netlify https://reactjs-e-commerce-store.netlify.com/
+It is a responsive site that works on different screens (phones and laptops)
+It has onError function to swap error image
+It has commented console.log to test some functions
+
 
 ## Available Scripts
 
